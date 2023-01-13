@@ -24,6 +24,7 @@ void shop :: displayPrice(){
         cout<<"The price of item alongwith Id "<<itemId[i]<<" is "<<itemPrice[i]<<endl;
     }
 }
+
 int main(){
     shop dukan;
     dukan.initcounter();

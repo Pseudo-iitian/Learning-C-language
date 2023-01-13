@@ -21,10 +21,10 @@ int main(){
 
     // using pointer
     // cout<<"Before swapping number is : "<<a<<" and "<<b<<endl;
-    // swapPointer(&a,&b);
+    // swapPointer(&a,&b); // using pointer variable
     // cout<<"After swapping number is : "<<a<<" and "<<b<<endl;
 
-    //usijg referneceVAr
+    //usijg referneceVAr // using reference variable
     cout<<"Before swapping number is : "<<a<<" and "<<b<<endl;
     referenceVar(a,b)=24;
     cout<<"After swapping naumber is : "<<a<<" and "<<b<<endl;

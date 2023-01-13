@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// method overloading with funcitons
 int sum(int a,int b){
     cout<<"using function with 2 variables is ";
     return a+b;

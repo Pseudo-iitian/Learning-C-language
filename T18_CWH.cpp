@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-float Money(int money, float si=1.04){
+float Money(int money, float si=1.0){
     return money*si;
 }
 
@@ -29,7 +29,7 @@ int main(){
 
     int money=100000;
     cout<<"FOR NORMAL ONE : Money for all of 1 lakh deposit after 1 year will become : "<<Money(money)<<endl;
-    cout<<"FOR VIP : Money for all of 1 lakh deposit after 1 year will become : "<<Money(money,1.1)<<endl;
+    cout<<"FOR VIP : Money for all of 1 lakh deposit after 1 year will become : "<<Money(money,2.0)<<endl;
 
     return 0;
 }

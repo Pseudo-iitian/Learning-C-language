@@ -62,7 +62,7 @@ int main(){
     // classes and Objects
 
     // c++ was intitialy called as c with classes by STROUSTROUP
-    // classes extension of structures in c
+    // classes - extension of structures in c
     // Structures has limitations
             // - members are public 
             // - no methods
