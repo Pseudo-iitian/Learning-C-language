@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-class c2;
+class c2; // how we know that it will come after this, so need to declare first
 class c1;
 class c1{
     int val1;
